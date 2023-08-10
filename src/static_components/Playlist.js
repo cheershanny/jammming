@@ -3,7 +3,7 @@ export const Playlist = () => {
 
     return (
         <div>
-            {list[0]}
+            {list.map((song) => <li>{song}</li>)}
         </div>
     );
 

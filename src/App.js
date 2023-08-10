@@ -1,7 +1,7 @@
 import './App.css';
 import {Playlist} from './static_components/Playlist';
 import {SearchBar} from './static_components/SearchBar';
-import {SearchResults} from './static_components/Playlist';
+import {SearchResults} from './static_components/SearchResults';
 import {Track} from './static_components/Track';
 import {Tracklist} from './static_components/Tracklist';
 

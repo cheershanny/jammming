@@ -9,10 +9,10 @@ function App() {
       </header>
       <body>
         <Playlist />
-        {/* <SearchBar />
+        <SearchBar />
         <SearchResult />
         <Track />
-        <Tracklist /> */}
+        <Tracklist />
       </body>
     </div>
   );

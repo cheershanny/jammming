@@ -1,5 +1,9 @@
 import './App.css';
 import {Playlist} from './static_components/Playlist';
+import {SearchBar} from './static_components/SearchBar';
+import {SearchResults} from './static_components/Playlist';
+import {Track} from './static_components/Track';
+import {Tracklist} from './static_components/Tracklist';
 
 function App() {
   return (
@@ -8,11 +12,11 @@ function App() {
         <h1>Jammein</h1>
       </header>
       <body>
-        <Playlist />
-        {/* <SearchBar />
-        <SearchResult />
-        <Track />
-        <Tracklist /> */}
+        <Playlist className='Playlist'/>
+        <SearchBar className='SearchBar'/>
+        <SearchResults className='SearchResults'/>
+        <Track className='Track'/>
+        <Tracklist className='Tracklist'/>
       </body>
     </div>
   );

@@ -7,3 +7,26 @@
   color: white;
   font: 100;
 }
+
+.Playlist {
+  background-color: #E33CC7;
+}
+
+.SearchBar {
+  background-color: #2DDFFF;
+}
+
+.SearchResults {
+  background-color: #F5F474;
+}
+
+.Track {
+  background-color: #FFAA47;
+}
+
+.Tracklist {
+  background-color: #F54D28;
+}
+
+
+

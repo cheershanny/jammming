@@ -6,8 +6,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Jammein</h1>
-        <Playlist />
       </header>
+      <body>
+        <Playlist />
+        {/* <SearchBar />
+        <SearchResult />
+        <Track />
+        <Tracklist /> */}
+      </body>
     </div>
   );
 }

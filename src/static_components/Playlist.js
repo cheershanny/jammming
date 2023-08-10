@@ -1,4 +1,10 @@
 export const Playlist = () => {
-    return (<h1>Hiii me again</h1>);
+    const list = ['Would it be nice', 'Unbreak my heart'];
+
+    return (
+        <div>
+            {list[0]}
+        </div>
+    );
 
 };

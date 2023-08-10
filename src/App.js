@@ -12,7 +12,7 @@ function App() {
         <h1>Jammein</h1>
       </header>
       <body>
-        <Playlist className='Playlist'/>
+        <Playlist className='App'/>
         <SearchBar className='SearchBar'/>
         <SearchResults className='SearchResults'/>
         <Track className='Track'/>

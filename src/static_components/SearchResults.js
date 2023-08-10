@@ -1,5 +1,5 @@
-export const SearchResults = () => {
+export const SearchResults = (prop) => {
     return (
-        <p>Hi! my name is Search Results and I should show what you've searched for</p>
+        <p className = {prop.className}>Hi! my name is Search Results and I should show what you've searched for</p>
         );
 }

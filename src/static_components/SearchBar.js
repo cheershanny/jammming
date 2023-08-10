@@ -1,5 +1,5 @@
-export const SearchBar = () => {
+export const SearchBar = (prop) => {
     return (
-        <p>Hi! my name is Search Bar and I should have a bar somewhere nearby</p>
+        <p className = {prop.className}>Hi! my name is Search Bar and I should have a bar somewhere nearby</p>
         );
 }

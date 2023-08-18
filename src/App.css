@@ -4,29 +4,56 @@
 
 .App-header {
   background-color: #282c34;
-  color: white;
-  font: 100;
+  color: wheat;
+  font: 700;
+  height: 50px;
+  text-align: center;
+  padding: 70px 0;
 }
 
-.Playlist {
-  background-color: #E33CC7;
+.TrackItem {
+  border: 2px solid #282c34;
+  background-color: #00ffff4d;
 }
 
+button {
+  background-color: #f54d28;
+  padding: 5px;
+  font-weight: 900;
+  font-size: 15px;
+  margin: 10px;
+}
+
+/* Search Bar */
 .SearchBar {
-  background-color: #2DDFFF;
+  background-color: #2ddfff;
 }
 
+.SearchBar input {
+  width: 90%;
+  height: 30px;
+  margin: 10px;
+  background-color: antiquewhite;
+}
+
+/* Search Result */
 .SearchResults {
-  background-color: #F5F474;
+  background-color: #f5f474;
+  padding: 15px;
 }
 
-.Track {
-  background-color: #FFAA47;
+/* My Playlist */
+.Playlist {
+  background-color: #e33cc7;
+  padding: 15px;
+}
+.Playlist input {
+  background-color: antiquewhite;
+  margin-bottom: 10px;
 }
 
-.Tracklist {
-  background-color: #F54D28;
+#successful_message {
+  color: #f54d28;
+  font-style: italic;
+  font-weight: 700;
 }
-
-
-

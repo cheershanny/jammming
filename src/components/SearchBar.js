@@ -3,7 +3,6 @@ import debounce from "lodash/debounce";
 
 export const SearchBar = (props) => {
   const [searchInput, setSearchInput] = useState("");
-  // const [searchResults, setSearchResults] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
 
   const handleSearch = () => {
@@ -24,8 +23,6 @@ export const SearchBar = (props) => {
           album: item.album.name,
           uri: item.uri,
         }));
-        // setSearchResults(tracks);
-        
         props.onSearchResultsChange(tracks);
       })
       .catch((error) => {

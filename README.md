@@ -19,8 +19,8 @@ Jammming is a web application that allows users to search for songs, create cust
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/cheershanny/jammming-app.git`
-2. Navigate to the project directory: `cd jammming-app`
+1. Clone the repository: `git clone https://github.com/cheershanny/jammming.git`
+2. Navigate to the project directory: `cd jammming`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
 
